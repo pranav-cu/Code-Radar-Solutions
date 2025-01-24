@@ -2,7 +2,7 @@
 #include <string.h>
 int main() {
     char a[];
-    scanf("%s",a);
+    fgets(a,sizeof(a),stdin);
     printf("%s",a);
     return 0;
 }
