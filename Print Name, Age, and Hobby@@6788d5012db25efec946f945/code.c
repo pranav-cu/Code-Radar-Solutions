@@ -7,6 +7,6 @@ int main() {
     scanf("%s",&b);
     printf("Name: %s\n",a);
     printf("Age: %d\n",c);
-    printf("Hobby: %s",b)
+    printf("Hobby: %s",b);
     return 0;
 }
