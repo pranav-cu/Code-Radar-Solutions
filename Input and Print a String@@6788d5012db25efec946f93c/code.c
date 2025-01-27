@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <string.h>
 int main() {
-    char a[];
-    fgets(a,sizeof(a),stdin);
+    char a[100];
+    scanf("%s",a);
     printf("%s",a);
     return 0;
 }
