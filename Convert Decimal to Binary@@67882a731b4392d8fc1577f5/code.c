@@ -6,7 +6,7 @@ int main() {
         if(a&(1<<b))
          c=1;
         if(c)
-        printf("%d",(n&(1<<b))?1:0);
+        printf("%d",(a&(1<<b))?1:0);
         if(!c)
         printf("0");
     }
