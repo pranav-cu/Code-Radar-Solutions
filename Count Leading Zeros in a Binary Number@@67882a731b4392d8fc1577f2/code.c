@@ -3,9 +3,9 @@ int main() {
     int a,b;
     scanf("%d",&a);
     while(a!=0){
-        count++;
+        b++;
         a=a>>1;
     }
-    printf("%d",count);
+    printf("%d",b);
     return 0;
 }
