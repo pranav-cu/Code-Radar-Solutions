@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    unsigned a,b;
+    unsigned int a,b;
     scanf("%d",&a);
     while(a!=0){
         b++;
