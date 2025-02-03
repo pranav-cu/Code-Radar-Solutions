@@ -4,10 +4,10 @@ int main() {
     scanf("%d",&a);
     for(b=31;b>=0;b--){
         if(a&(1<<b))
-         flag=1;
-        if(flag)
+         c=1;
+        if(c)
         printf("%d",(n&(1<<b))?1:0);
-        if(!flag)
+        if(!c)
         printf("0");
     }
     return 0;
