@@ -6,6 +6,6 @@ int main() {
         b++;
         a=a>>1;
     }
-    printf("%d",b);
+    printf("%d",32-b);
     return 0;
 }
