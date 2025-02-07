@@ -15,7 +15,7 @@ int main() {
             break;
         case '/':
             if(b!=0) printf("%d",a/b);
-            else printf("Error");
+            else printf("error");
             break;
         default:
             printf("Error");
