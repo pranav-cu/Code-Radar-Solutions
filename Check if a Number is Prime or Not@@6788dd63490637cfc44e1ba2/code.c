@@ -6,7 +6,8 @@ int main() {
     for (b=2;b<a;b++){
         if(a%b==0){ c=0;
         break;
-    }}
+        }
+    }
     if(c) printf("Prime");
     else printf("Not Prime");
     return 0;
