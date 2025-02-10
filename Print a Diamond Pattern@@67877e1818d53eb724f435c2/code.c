@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int i,j,k,l,m,a;
+    int i,j,k,a;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
         for(j=0;j<a-i;j++){
@@ -10,10 +10,12 @@ int main() {
             printf("*");
         }
         printf("\n");
-        for(l=a-1;l>0;l--){
+    }
+    for(i=a-1,i>=1;i--){
+        for(j=0;j<a-i;j++){
             printf(" ");
         }
-        for(m=a-1;m>0;m--){
+        for(k=0;k<(2*i-1);k++){
             printf("*");
         }
         printf("\n");
