@@ -11,6 +11,7 @@ int main(){
             printf("%c",b);
             b++;
         }
+        printf("\n");
     }
     return 0;
 }
