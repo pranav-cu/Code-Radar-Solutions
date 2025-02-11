@@ -8,6 +8,7 @@ int main(){
             printf("%c",c);
             c++;
         }
+        printf("\n");
     }
     return 0;
 }
