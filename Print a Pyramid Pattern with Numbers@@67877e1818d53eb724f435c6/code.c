@@ -7,7 +7,7 @@ int main(){
             printf("%d",j);
         }
         for(k=1;k<(2*i-1);k++){
-            printf(" ",k);
+            printf(" ");
         }
         printf("\n");
     }
