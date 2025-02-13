@@ -9,9 +9,8 @@ int main(){
         for(b=1;b<=i;b++){
             printf("%d",b);
         }
-        while(b>=1){
+        for(;b>=1;b--){
             printf("%d",b);
-            b--;
         }
         printf("\n");
     }
