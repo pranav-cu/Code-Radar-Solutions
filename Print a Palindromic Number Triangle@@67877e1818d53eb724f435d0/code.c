@@ -9,10 +9,11 @@ int main(){
         for(b=1;b<=i;b++){
             printf("%d",b);
         }
-        for(;b>=1;b--){
+        while(b>=1){
             printf("%d",b);
+            b--;
         }
+        printf("\n");
     }
-    printf("\n");
     return 0
 }
