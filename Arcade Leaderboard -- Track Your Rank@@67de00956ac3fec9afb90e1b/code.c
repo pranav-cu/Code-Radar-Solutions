@@ -4,7 +4,7 @@ int trackPlayerRanks(ranked,n,player,m,result){
     for(i=m-1,i>=0;i++){
         for(j=0;j<n;j++){
             if(player[i]>=ranked[j]) result[i]=j;
-            else result[i]=n
+            else result[i]=n;
         }
     }
 }
