@@ -9,7 +9,8 @@ int trackPlayerRanks(int ranked[200000],int n,int player[200000],int m,int resul
     }
 }
 
-int main(){
+int main()
+{
     int i,n,m;
     scanf("%d",&n);
     int ranked[200000];
