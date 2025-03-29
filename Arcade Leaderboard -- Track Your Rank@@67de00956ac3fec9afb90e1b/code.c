@@ -1,7 +1,7 @@
 #include<stdio.h>
 int trackPlayerRanks(int ranked,int n,int player,int m,int result){
     int i,j;
-    for(i=m-1,i>=0;i++){
+    for(i=m-1;i>=0;i++){
         for(j=0;j<n;j++){
             if(player[i]>=ranked[j]) result[i]=j;
             else result[i]=n;
