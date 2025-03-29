@@ -22,7 +22,7 @@ int main{}{
         scanf("%d",&player[i]);
     }
     int result[200000];
-    trackPlayerRanks(ranked,n,player,m,result);
+    trackPlayerRanks(ranked[200000],n,player[200000],m,result[200000]);
     for(i=0;i<m;i++) printf("%d\n",result[i]);
     return 0;
 }
