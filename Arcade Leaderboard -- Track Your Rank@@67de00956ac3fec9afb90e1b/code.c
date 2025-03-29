@@ -8,21 +8,3 @@ void trackPlayerRanks(int ranked[200000],int n,int player[200000],int m,int resu
         }
     }
 }
-
-int main(){
-    int i,n,m;
-    scanf("%d",&n);
-    int ranked[200000];
-    for(i=0;i<n;i++){
-        scanf("%d",&ranked[i]);
-    }
-    scanf("%d",&m);
-    int player[200000];
-    for(i=0;i<m;i++){
-        scanf("%d",&player[i]);
-    }
-    int result[200000];
-    trackPlayerRanks(ranked,n,player,m,result);
-    for(i=0;i<m;i++) printf("%d\n",result[i]);
-    return 0;
-}
